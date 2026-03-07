@@ -165,3 +165,24 @@ Every session, before anything else:
 
 Save everything immediately — do not wait until end of session.
 Alain explicitly requested this on March 7, 2026.
+
+## Google Drive Access (Added Mar 7, 2026)
+- Drive folder "Toiture Fortin Photos" shared by Alain
+- Root folder ID: `1UbFZTivCBn_NhzjZbFp2NBNzXMweAvdh`
+- Subfolder "toit" ID: `1qQIJqKv01QTk-9fP4W48-nPoWmdL3olC`
+- New OAuth scope: `drive.readonly` added Mar 7
+- New refresh token: `[REDACTED]`
+- Photos: 72 downloaded to `workspace/data/roof_photos/drive_import/` (DJI drone aerials, job site photos 2014-2026)
+- Videos: 3 promo videos downloaded to `workspace/data/roof_videos/`
+- Access pattern: refresh token → access token → Drive API v3
+
+## GEO / AI Optimization Plan (Toiture Fortin)
+- Alain already gets leads from ChatGPT/Copilot — wants to go higher
+- Plan: workspace/data/geo_plan.md
+- Social posts (ready to deploy): workspace/data/geo_content/social_posts_batch1.md
+- Waiting for: Shiva to provide X (Twitter) + Facebook access
+- Can start immediately: Q&A content, articles, Google Business posts once Alain adds manager access
+- Website schema markup (JSON-LD) ready to write — give to Shiva for webmaster
+
+## OAuth Scopes (Current — Mar 7, 2026)
+- calendar, documents, drive.file, drive.readonly, gmail.send, gmail.settings.basic
