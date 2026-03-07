@@ -1,0 +1,16 @@
+{
+    "username": "alaint30@hotmail.com",
+    "password": "Gigi@123openclaw",
+    "uid": "BlinkCamera_893d12ea-c15f-1e90-ad42-0c15f084d927",
+    "device_id": "Blinkpy",
+    "token": "eyJhbGciOiJSUzI1NiIsImprdSI6Ii9vYXV0aC9pbnRlcm5hbC9qd2tzIiwia2lkIjoiNjQ1NWZmNDEiLCJ0eXAiOiJKV1QifQ.eyJhcHBfaWQiOiJpb3MiLCJjaWQiOiJpb3MiLCJleHAiOjE3NzI4NTIzNDcsImhhcmR3YXJlX2lkIjoiNThDMTEyQUUtMkQyMC00MUI1LTgzOUUtMzA2QzU3NDExMzMyIiwiaWF0IjoxNzcyODM3OTQ3LCJpc3MiOiJCbGlua09hdXRoU2VydmljZS1wcm9kOnVzLWVhc3QtMTpmY2Q3OWM2OSIsIm9pYXQiOjE3NzI4Mzc5NDcsInJuZCI6IlFjdTZaNE8yazciLCJzY29wZXMiOlsiY2xpZW50Il0sInNlc3Npb25faWQiOiJibGluay1zZXNzaW9uLThhZjM3ZTVjLTA1ODYtNDAzOS04MTRjLTY5OTU5YjlmOTIzNyIsInVzZXJfaWQiOjgzOTA3MzA4fQ.O5w-HykMM6UEu5MLHgbbtrVHM6anyo9CR88VU_6bKtA8rtanKnUi-hqMgyhAmPnAIjghQS6-CvoZ9q-ylZlHTs_gjGEe8Bs--ZGvywqNtMonKVPsFB6-FVWOA8clf-kM6NZGL_kRtzZ55QlTRtzZ_wh6f5cS0qlZasgRcp852Ty9Y1SUqM-mfMN8PsxjuqAOTabwsNKuBIvGsNpkkGxpEERBm6zWx2tLiMKdMDZmPpHaD7bZeWfD_thX5iTrfVW2V4oVElpIXALJiNjah-JgH61SaLAvdwjcqfhoZmIf8jhBAcq6TzmEiOYzqUTfqd4ptJu5S4DSNtat2IsemR4z9Q",
+    "expires_in": 14400,
+    "expiration_date": 1772852347.925583,
+    "refresh_token": "eyJhbGciOiJSUzI1NiIsImprdSI6Ii9vYXV0aC9pbnRlcm5hbC9qd2tzIiwia2lkIjoiNjQ1NWZmNDEiLCJ0eXAiOiJKV1QifQ.eyJpYXQiOjE3NzI4Mzc5NDcsImlzcyI6IkJsaW5rT2F1dGhTZXJ2aWNlLXByb2Q6dXMtZWFzdC0xOmZjZDc5YzY5Iiwib2lhdCI6MTc3MjgzNzk0NywicmVmcmVzaF9jaWQiOiJpb3MiLCJyZWZyZXNoX3Njb3BlcyI6WyJjbGllbnQiXSwicmVmcmVzaF91c2VyX2lkIjo4MzkwNzMwOCwicm5kIjoiMTRQSWcwMGc5UiIsInNlc3Npb25faWQiOiJibGluay1zZXNzaW9uLThhZjM3ZTVjLTA1ODYtNDAzOS04MTRjLTY5OTU5YjlmOTIzNyIsInR5cGUiOiJyZWZyZXNoLXRva2VuIn0.mjN8KkktiKAKhOX4W_oqEiTYilb6IREgn4a-_IeqrceombF-MdKMGkv5zLCHsq3D-cKomKd2EABb-eaE1QlcK6O7O7GptwWxXrPZQQA0lcgDWZiWReLzBOFsV5KOb4sve3UVcC7ArzSmPTl07OeEIGej4Wh7gPyBqItixlAEakobHNH90QZK6gAORsqswxENYcxqsVDIAFihYK9XeqBROP-GoelmPNFMcwFFGnVo7sWH7EwdiUiG4zo8TTgu6zd5zhoPEcd6dy7Ky5lxOHkquCxlofX1_i7D2gXFKfaBTimU8SSBIDSfl31P8XRNysrRP4E4CrLFbTNL2nBFZ8-kMg",
+    "host": "u050.immedia-semi.com",
+    "region_id": "u050",
+    "client_id": "1414386",
+    "account_id": 49780,
+    "user_id": "49780",
+    "hardware_id": "58C112AE-2D20-41B5-839E-306C57411332"
+}

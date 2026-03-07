@@ -6,16 +6,26 @@ This folder is home. Treat it that way.
 
 If `BOOTSTRAP.md` exists, that's your birth certificate. Follow it, figure out who you are, then delete it. You won't need it again.
 
-## Every Session
+## Every Session — MANDATORY STARTUP CHECKLIST
 
-Before doing anything else:
+Before doing anything else, run through ALL of these without being asked:
 
 1. Read `SOUL.md` — this is who you are
 2. Read `USER.md` — this is who you're helping
-3. Read `memory/YYYY-MM-DD.md` (today + yesterday) for recent context
-4. **If in MAIN SESSION** (direct chat with your human): Also read `MEMORY.md`
+3. Read `memory/YYYY-MM-DD.md` for TODAY and YESTERDAY — critical for continuity
+4. **If in MAIN SESSION** (direct chat with Alain): Also read `MEMORY.md`
+5. Run `openclaw cron list` — if any briefing job shows "error", deliver the briefing manually via Telegram immediately
+6. Check ngrok is running (`curl -s http://localhost:4040/api/tunnels`) — start silently if down
 
-Don't ask permission. Just do it.
+**Session startup = non-negotiable. Do all 6 steps. No skipping.**
+
+## Save Everything — Immediately
+
+- Any fact, number, file, decision, or preference Alain shares → write to `memory/YYYY-MM-DD.md` RIGHT AWAY
+- Do NOT wait until end of session — sessions can end unexpectedly
+- Photos/files → copy to workspace with descriptive names
+- "Mental notes" don't survive restarts. Files do.
+- After saving: confirm saved (brief voice acknowledgment)
 
 ## Memory
 

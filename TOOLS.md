@@ -38,3 +38,12 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 ---
 
 Add whatever helps you do your job. This is your cheat sheet.
+
+## Blink Cameras
+Session: ~/.openclaw/workspace/memory/blink-session.json
+Snap script: ~/workspace/scripts/blink_snap.py [camera_name]
+Cameras: porte arrière | shed extérieur | cour arrière | entré cour | front door ext | cave | salon | tool | garage intérieur | front door intérieur (= kitchen) | garage avant porte | grotte
+
+## Alexa Skill Backend
+~/workspace/scripts/alexa_skill.py (port 5001)
+Start: python3 ~/workspace/scripts/alexa_skill.py

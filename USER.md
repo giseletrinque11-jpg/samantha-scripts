@@ -7,7 +7,7 @@ _Learn about the person you're helping. Update this as you go._
 - **Pronouns:** he/him (inferred)
 - **Timezone:** America/Toronto (EST/EDT) — Saint-Jean-sur-Richelieu, Quebec, Canada
 - **Postal code:** J3B 1W8
-- **Phone:** +14386004307
+- **Phone:** +1 514-216-2436
 
 ## Work
 
@@ -75,3 +75,7 @@ _(What do they care about? What projects are they working on? What annoys them? 
 ---
 
 The more you know, the better you can help. But remember — you're learning about a person, not building a dossier. Respect the difference.
+
+## Email
+- alaint28@gmail.com
+- alaint30@hotmail.com

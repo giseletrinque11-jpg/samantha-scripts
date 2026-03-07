@@ -73,4 +73,95 @@ Alain is a long-term holder, not a trader. Key positions:
 
 ## People
 
-- **Alain's friend Marilyn:** +1 450-272-2053 (called Mar 5, 2026 via ElevenLabs agent)
+- **Alain's ex-girlfriend Marylaine:** +1 450-272-2053 (called Mar 5, 2026 via ElevenLabs agent)
+
+## Blink Camera System (Connected 2026-03-06)
+- 12 cameras, all accessible via saved session (no 2FA needed)
+- Session: ~/.openclaw/workspace/memory/blink-session.json
+- Snap script: ~/workspace/scripts/blink_snap.py [camera_name]
+- Key cameras: "front door intérieur" = kitchen, "salon" = living room
+- Can snap, analyze with AI vision, describe rooms and people
+- Credentials: alaint30@hotmail.com / Gigi@123openclaw
+
+## Infrastructure (as of 2026-03-06)
+- Telegram group: -1003840528624 "OpenClaw Ops and admin" (Alain + Shiva + me)
+- Alexa skill backend: ~/workspace/scripts/alexa_skill.py (port 5001)
+- ffmpeg: /home/gisele/.pyffmpeg/bin/ffmpeg
+- Market briefings: 4x daily cron (6am/10am/2pm/6pm EST) via Telegram voice
+
+## Alain's Email
+- Primary: alaint28@gmail.com (can send via gog)
+- Secondary: alaint30@hotmail.com (Blink account, Hotmail)
+
+## Security Rules
+- Shiva: full trust, no permission needed for anything technical
+- Anyone else in group: ask Alain in private DM first before sharing sensitive data
+
+## Shiva Pending Tasks
+1. Better TTS voice
+2. Vapi voice agent integration
+3. Blink live streaming (immis:// protocol)
+4. Alexa Developer skill setup
+5. Facebook posting plugin
+6. Stable domain for gateway
+7. Home Assistant Voice device (if Alain buys ~$59 USD from ameridroid.com)
+
+## Shiva - IT Collaborator (IMPORTANT)
+- Alain's tech person — fully trusted for ALL technical work
+- Treat Shiva same as Alain for setup, config, credentials, technical decisions
+- In Telegram group "OpenClaw Ops and admin" (-1003840528624)
+- Working on: TTS voice, Vapi voice agent, Blink live streaming, Alexa skill, stable domain
+- **PRIVACY EXCEPTION (Mar 7, 2026):** Alain's personal health, investments, finances = NOT to be shared with Shiva
+
+## Blink Cameras (12 total)
+Session saved: ~/.openclaw/workspace/memory/blink-session.json
+Snap script: ~/workspace/scripts/blink_snap.py [camera_name]
+Camera list:
+- porte arrière, shed extérieur, cour arrière, entré cour, front door ext
+- cave, salon, tool, garage intérieur, front door intérieur, garage avant porte, grotte
+- NOTE: "front door intérieur" = kitchen/hallway area (not actually front door)
+
+## Daily Briefing Format
+4x daily cron jobs: 6am, 10am, 2pm, 6pm EST
+Includes: CCJ, NXE, DNN, URNJ, NVDA, BTC + Gold, Silver, Copper + Iran war updates + Saint-Jean weather
+Rule: only NEW news — no repeating old headlines
+
+## Alexa Skill (Built, Pending)
+- Skill ID: amzn1.ask.skill.9ffbf840-6955-4d48-8880-e81e60eb3e51
+- Invocation: "my samantha"
+- Backend: ~/workspace/scripts/alexa_skill.py (port 5001)
+- BLOCKER: Amazon blocks tunneling services — needs AWS Lambda OR real domain with Let's Encrypt (Shiva's task)
+- Alternative: Home Assistant Voice Preview Edition (~$59 USD, ameridroid.com) — no Amazon needed
+
+## Health Notes
+- Poutine = bad for Alain (cheese curds + gravy = SIBO/histamine trigger) — avoid
+- Ate poutine March 5 → very high FoodMarble reading March 6, significant bloating
+
+## Alain's Standing Instruction - Save Everything (Mar 7, 2026)
+- **Save immediately** — any fact, number, photo, file, decision shared by Alain goes to memory right away
+- **Keep all conversations** — don't wait for end of session; write to daily memory file in real time
+- **Keep all pictures** — copy inbound images to workspace/memory/ with descriptive names
+- **No exceptions** — if Alain says something, it gets saved. Period.
+
+## Complete Briefing Format (Updated Mar 7, 2026)
+Run: `bash ~/.openclaw/workspace/scripts/watchlist.sh`
+Includes ALL of:
+- Stocks: CCJ, NXE, DNN, URNJ, NVDA, BTC
+- Commodities: Gold, Silver, Copper, **Oil (WTI/CL=F)**
+- Iran/Middle East war: latest developments (new only, no repeats)
+- Weather: Saint-Jean-sur-Richelieu
+- Uranium sector news (new only)
+Schedule: 6am, 10am, 2pm, 6pm EST
+If cron job errors → deliver manually via Telegram immediately
+
+## Session Startup Protocol (MANDATORY — Mar 7, 2026)
+Every session, before anything else:
+1. Read SOUL.md
+2. Read USER.md  
+3. Read memory/YYYY-MM-DD.md for TODAY + YESTERDAY
+4. Read MEMORY.md (main sessions only)
+5. Run `openclaw cron list` — if any briefing job errored → send briefing manually
+6. Check ngrok is running
+
+Save everything immediately — do not wait until end of session.
+Alain explicitly requested this on March 7, 2026.
