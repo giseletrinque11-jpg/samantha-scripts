@@ -4,12 +4,18 @@
 
 ---
 
-## THE STORY (90 seconds)
+## THE STORY (90–120 seconds)
 
-**BEFORE**: Agent overwhelmed by constant calls → exhausted, frustrated
-**PIVOT**: Kalkia AI takes over answering the phone
-**AFTER**: AI collects lead info, sends listing, books appointment, agent gets clean summary
-**RESULT**: Agent is relaxed, happy — Kalkia does the work
+**Full flow confirmed by Alain Thibodeau, March 7, 2026:**
+
+1. Customer calls the real estate agent
+2. AI answers — asks which property they're calling about
+3. AI collects: customer name, email, which property they want
+4. AI sends customer the full listing (description, photos, documents) automatically
+5. AI asks: "Would you like to book a showing?"
+6. **IF YES** → appointment booked → agent receives clean form: name, email, property, date/time
+7. **IF NOT READY** → weekly automated follow-up emails: "Still interested? Ready to visit?"
+8. Agent gets warm leads delivered — never chases cold ones manually
 
 ---
 
@@ -97,6 +103,20 @@
 > "Merci Sarah! Votre visite est confirmée jeudi le 12 mars à 14h avec votre agent. Vous recevrez une confirmation par courriel."
 
 **Texte à l'écran:** "📅 Rendez-vous ajouté au calendrier de l'agent — automatiquement"
+
+---
+
+### 🎬 SCÈNE 6B — "SI PAS PRÊT — RELANCE AUTOMATIQUE" [1:05–1:15]
+
+**Visuel:** Animation — séquence d'emails automatiques: Semaine 1, Semaine 2, Semaine 3...
+
+**Texte à l'écran:**
+> Semaine 1: "Bonjour Sarah, avez-vous eu la chance de regarder les annonces?"
+> Semaine 2: "Toujours à la recherche? On a de nouvelles inscriptions dans votre secteur."
+> Semaine 3: "Prête à visiter? On réserve un créneau en 2 minutes."
+
+**Voix off:**
+> "Si le client n'est pas prêt, l'IA relance automatiquement chaque semaine — jusqu'à ce qu'il soit prêt."
 
 ---
 
@@ -196,6 +216,20 @@ Calendar animation. New appointment appears.
 > "Your viewing is confirmed for Thursday March 12th at 2 PM with your agent. You'll get a confirmation by email."
 
 **On-screen:** "📅 Appointment auto-added to agent's calendar"
+
+### 🎬 SCENE 6B — "IF NOT READY — AUTOMATED FOLLOW-UP" [1:05–1:15]
+
+**Visual:** Animation — automated email sequence: Week 1, Week 2, Week 3...
+
+**On-screen text:**
+> Week 1: "Hi Sarah, did you get a chance to check out the listings?"
+> Week 2: "Still looking? We have new listings in your area."
+> Week 3: "Ready to visit? We can book a slot in 2 minutes."
+
+**Narrator:**
+> "If the client isn't ready, the AI follows up automatically every week — until they are."
+
+---
 
 ### 🎬 SCENE 7 — "AGENT GETS CLEAN SUMMARY" [1:15–1:25]
 Agent gets phone notification. Opens clean lead card. Smiles.
