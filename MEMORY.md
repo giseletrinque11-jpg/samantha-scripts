@@ -186,3 +186,12 @@ Alain explicitly requested this on March 7, 2026.
 
 ## OAuth Scopes (Current — Mar 7, 2026)
 - calendar, documents, drive.file, drive.readonly, gmail.send, gmail.settings.basic
+
+## LinkedIn Account (Added Mar 7, 2026)
+- Account: giseletrinque11@gmail.com
+- Password: Toiture@2026!Sam
+- Profile: "Giseletrinque undefined" — peintre toiture at toiture fortin, Montreal Quebec
+- Profile URL: https://www.linkedin.com/in/giseletrinque-undefined-3b08133b5/
+- Status: LOGGED IN via browser — can post articles and content directly
+- BLOCKER: Cannot create company page (requires connections) — need Alain to create from his personal LinkedIn and add giseletrinque11 as admin
+- Can publish articles/posts from this personal profile immediately (still indexed by AI)
