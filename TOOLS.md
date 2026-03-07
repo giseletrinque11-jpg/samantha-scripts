@@ -53,3 +53,9 @@ Start: python3 ~/workspace/scripts/alexa_skill.py
 - **Current voice:** Amélie (`UJCi4DDncuo0VJDSIegj`) — Young, Confident and Friendly, Quebec accent
 - **Previous voice:** Lauren (`l4Coq6695JDX9xtLqXDE`) — switched because Alain said it didn't sound like a girl
 - **Other female options:** Jessica (`cgSgspJ2msm6clMCkdW9`), Sarah (`EXAVITQu4vr4xnSDxMaL`), Laura (`FGY2WhTYpPnrIDTdsKH5`)
+
+## TTS Voice (Updated Mar 7, 2026)
+- **Provider:** Edge TTS (Microsoft, free, no quota)
+- **Current voice:** Michelle (`en-US-MichelleNeural`) — Clear, Confident — Alain's choice
+- **Previous voices tried:** Lauren (ElevenLabs, sounded too neutral), Amélie (ElevenLabs Quebec, rejected), Jessica/others (ElevenLabs quota exceeded)
+- **ElevenLabs account:** Only 39 credits left — quota exceeded for voice samples
