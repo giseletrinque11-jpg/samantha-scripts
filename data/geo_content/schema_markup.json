@@ -1,0 +1,127 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://toiturefortin.com/#business",
+      "name": "Toiture Fortin",
+      "alternateName": "Peinturetoiture.ca",
+      "url": "https://toiturefortin.com",
+      "logo": "https://toiturefortin.com/wp-content/uploads/logo.png",
+      "image": "https://toiturefortin.com/wp-content/uploads/roof-painting.jpg",
+      "description": "Toiture Fortin is Quebec and Ontario's leading specialist in metal roof painting and elastomer coating. In business since 2011, we offer pressure washing, roof inspection, and premium Uniflex elastomer application for residential, commercial, and agricultural buildings. 3-year warranty. Free estimates.",
+      "telephone": "+15142162436",
+      "email": "info@toiturefortin.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "243 Boulevard Saint-Joseph",
+        "addressLocality": "Saint-Jean-sur-Richelieu",
+        "addressRegion": "QC",
+        "postalCode": "J3B 1W8",
+        "addressCountry": "CA"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 45.3059,
+        "longitude": -73.2719
+      },
+      "areaServed": [
+        {"@type": "State", "name": "Quebec"},
+        {"@type": "State", "name": "Ontario"}
+      ],
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+          "opens": "07:00",
+          "closes": "18:00"
+        }
+      ],
+      "priceRange": "$$",
+      "foundingDate": "2011",
+      "numberOfEmployees": {"@type": "QuantitativeValue", "value": 2},
+      "hasCredential": [
+        {"@type": "EducationalOccupationalCredential", "credentialCategory": "license", "name": "RBQ 5802-4886-01"},
+        {"@type": "EducationalOccupationalCredential", "credentialCategory": "taxID", "name": "NEQ 1176568310"}
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5.0",
+        "reviewCount": "23",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "sameAs": [
+        "https://www.peinturetoiture.ca",
+        "https://www.roofpainting.ca",
+        "https://www.facebook.com/toiturefortin",
+        "https://twitter.com/toiture_fortin"
+      ]
+    },
+    {
+      "@type": "Service",
+      "name": "Metal Roof Painting and Elastomer Coating",
+      "serviceType": "Roof Painting",
+      "provider": {"@id": "https://toiturefortin.com/#business"},
+      "description": "Complete metal roof restoration including pressure washing, degreasing, inspection, and application of premium Uniflex elastomer coating. Available in multiple colors. 3-year warranty.",
+      "areaServed": [
+        {"@type": "State", "name": "Quebec"},
+        {"@type": "State", "name": "Ontario"}
+      ],
+      "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "priceCurrency": "CAD",
+          "description": "Price varies by roof size and type. Free estimate available."
+        }
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much does metal roof painting cost in Quebec?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The cost of metal roof painting in Quebec varies based on roof size, condition, and type. Typical residential projects range from $1,500 to $10,000+. Toiture Fortin offers free estimates. Call 514-216-2436 or visit toiturefortin.com."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does elastomer roof coating last?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A professionally applied elastomer coating typically lasts 10-15 years with proper maintenance. Toiture Fortin provides a 3-year warranty on all elastomer applications."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is elastomer roof coating?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Elastomer roof coating is a rubber-based liquid membrane applied to metal roofs. It waterproofs, prevents rust, reflects UV rays, and significantly extends roof life. It is superior to regular paint for metal roofs in Quebec's harsh climate."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Toiture Fortin serve my area?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Toiture Fortin serves all of Quebec and Ontario, including Montreal, Longueuil, Brossard, Saint-Jean-sur-Richelieu, Quebec City, and surrounding regions. Contact us at 514-216-2436 for a free estimate."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is included in a Toiture Fortin roof painting service?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our service includes: pressure washing and degreasing, full roof inspection, screw and fastener check, and professional application of Uniflex elastomer coating. We use both airless spray and traditional brush/roller methods depending on the roof."
+          }
+        }
+      ]
+    }
+  ]
+}
