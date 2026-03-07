@@ -47,3 +47,9 @@ Cameras: porte arrière | shed extérieur | cour arrière | entré cour | front 
 ## Alexa Skill Backend
 ~/workspace/scripts/alexa_skill.py (port 5001)
 Start: python3 ~/workspace/scripts/alexa_skill.py
+
+## TTS Voice
+- **Provider:** ElevenLabs
+- **Current voice:** Amélie (`UJCi4DDncuo0VJDSIegj`) — Young, Confident and Friendly, Quebec accent
+- **Previous voice:** Lauren (`l4Coq6695JDX9xtLqXDE`) — switched because Alain said it didn't sound like a girl
+- **Other female options:** Jessica (`cgSgspJ2msm6clMCkdW9`), Sarah (`EXAVITQu4vr4xnSDxMaL`), Laura (`FGY2WhTYpPnrIDTdsKH5`)
