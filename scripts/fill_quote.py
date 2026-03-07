@@ -16,7 +16,7 @@ TPS_RATE = 0.05
 TVQ_RATE = 0.09975
 
 # Colors (RGB 0-1)
-BLACK = (0.14, 0.14, 0.14)
+BLACK = (0.0, 0.0, 0.0)
 RED   = (0.75, 0.22, 0.17)
 
 def insert_text(page, x, y, text, fontsize=9.5, color=BLACK, fontname="helv", bold=False):
