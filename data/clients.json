@@ -1,0 +1,48 @@
+{
+  "clients": [
+    {
+      "id": 1,
+      "name": "Sandrine Faust",
+      "email": "sandrinefaust@videotron.ca",
+      "phone": "514-653-9405",
+      "address": "868 chemin des Hirondelles, Saint-Bruno-de-Montarville",
+      "project": "Toiture métallique",
+      "quote_amount": 8623.12,
+      "quote_color": "noir",
+      "first_contact": "2026-03-07",
+      "last_contact": "2026-03-07",
+      "status": "quote_sent",
+      "notes": "Quote sent via email Mar 7 2026. Uniflex noir, $7500 before tax."
+    },
+    {
+      "id": 2,
+      "name": "Gilles Arseneault",
+      "email": "gilles.arseneault@gmail.com",
+      "phone": "819-208-6111",
+      "address": "240 St-François-Xavier, Montebello",
+      "project": "Toiture métallique 50+ ans",
+      "quote_amount": 6898.50,
+      "quote_color": "jaune",
+      "first_contact": "2026-03-07",
+      "last_contact": "2026-03-07",
+      "status": "quote_sent",
+      "notes": "Lead from Feb 28. Quote sent Mar 7 2026. Uniflex jaune, $6000 before tax."
+    },
+    {
+      "id": 3,
+      "name": "Sylvain Champagne",
+      "email": "projonction@gmail.com",
+      "phone": "514-265-6851",
+      "address": "33 rang Double",
+      "project": "Toit maison + toit garage",
+      "quote_amount": 1149.75,
+      "quote_color": "rouge",
+      "first_contact": "2026-03-07",
+      "last_contact": "2026-03-07",
+      "status": "quote_sent",
+      "notes": "Lead from Feb 28. Quote sent Mar 7 2026. Uniflex rouge, $1000 before tax."
+    }
+  ],
+  "last_followup": null,
+  "followup_interval_days": 45
+}
