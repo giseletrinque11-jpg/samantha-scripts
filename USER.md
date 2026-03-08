@@ -45,6 +45,7 @@ _Learn about the person you're helping. Update this as you go._
 
 - **Company:** Toiture Fortin
 - **Website:** toiturefortin.com (redirects to peinturetoiture.ca)
+- **English website:** roopainting.ca
 - **Address:** 243 Saint-Joseph Boulevard, Saint-Jean-sur-Richelieu, QC
 - **Google Business:** Yes, set up
 - **X account:** @toiture_fortin
