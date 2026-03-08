@@ -11,19 +11,18 @@
 
 ## Calling Alain
 
-When Alain asks to be called (e.g. "call me", "call me back"), **always use the ElevenLabs agent**, not the built-in voice-call plugin.
+When Alain asks to be called (e.g. "call me", "call me back"), **use the Vapi outgoing agent** via `call_alain.py`. ElevenLabs/Twilio direct calling is retired.
 
-- **Agent ID:** `agent_6401kjtb35rcfgrbbegf7cwc5cbx`
-- **Phone number ID:** `phnum_3001kjrayzd4fkgb76t0gcmbgzbk`
-- **API key env var:** `ELEVENLABS_API_KEY` (sk_5e84355...)
+- **Script:** `~/workspace/scripts/call_alain.py`
+- **Usage:** `python3 call_alain.py "message" "optional context"`
+- **Vapi API key:** `b0c390f0-1026-4769-acf7-354024186d10`
+- **Outgoing agent ID:** `c5ef09a7-5096-422d-99bb-e42a582c75d5`
+- **Incoming agent ID:** `cc2fb078-c734-4259-875c-ecfb20090fa3`
+- **Vapi phone number ID:** `b285ba6e-1eda-41bd-a6d7-32e0c08f6510`
 - **Alain's number:** `+14386004307`
-- **Command:**
-  ```bash
-  curl -X POST "https://api.elevenlabs.io/v1/convai/twilio/outbound-call" \
-    -H "xi-api-key: $ELEVENLABS_API_KEY" -H "Content-Type: application/json" \
-    -d '{"agent_id": "agent_6401kjtb35rcfgrbbegf7cwc5cbx", "agent_phone_number_id": "phnum_3001kjrayzd4fkgb76t0gcmbgzbk", "to_number": "+14386004307"}'
-  ```
-- The ElevenLabs agent calls via Twilio and uses OpenClaw's `/v1/chat/completions` as its LLM — **ngrok gateway tunnel must be running** for the call to work.
+
+**Incoming calls from Alain** → Vapi receives → end-of-call summary → Make.com → filters by Alain's number → Telegram message to this group → I act on it.
+**Outgoing calls to Alain** → I run `call_alain.py` with message + context → Vapi calls Alain → end-of-call summary returns via same Make.com pipeline.
 
 ## Infrastructure
 
