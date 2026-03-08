@@ -1,10 +1,19 @@
 #!/usr/bin/env python3
 """Simple Alexa skill backend for Samantha."""
-import requests, json, logging
+import requests, json, logging, os
+from pathlib import Path
 from flask import Flask, request, jsonify
 
+# Load .env from workspace root
+env_path = Path(__file__).parent.parent / ".env"
+if env_path.exists():
+    for line in env_path.read_text().splitlines():
+        if line.strip() and not line.startswith("#") and "=" in line:
+            k, v = line.split("=", 1)
+            os.environ.setdefault(k.strip(), v.strip())
+
 OPENCLAW_URL = "http://localhost:18789/v1/chat/completions"
-OPENCLAW_TOKEN = "sk_c37dcbb0efc2251ebf1de3724e11772d4ab302ed5f520259"
+OPENCLAW_TOKEN = os.getenv("OPENCLAW_TOKEN")
 
 logging.basicConfig(level=logging.INFO)
 app = Flask(__name__)

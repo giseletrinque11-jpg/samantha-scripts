@@ -3,12 +3,21 @@
 Trigger an outbound Vapi call to Alain.
 Usage: python3 call_alain.py "Your message here" "Optional context"
 """
-import requests, sys, json
+import requests, sys, json, os
+from pathlib import Path
 
-VAPI_KEY      = "b0c390f0-1026-4769-acf7-354024186d10"
-OUTGOING_ID   = "c5ef09a7-5096-422d-99bb-e42a582c75d5"
-PHONE_NUM_ID  = "b285ba6e-1eda-41bd-a6d7-32e0c08f6510"
-ALAIN_NUMBER  = "+14386004307"
+# Load .env from workspace root
+env_path = Path(__file__).parent.parent / ".env"
+if env_path.exists():
+    for line in env_path.read_text().splitlines():
+        if line.strip() and not line.startswith("#") and "=" in line:
+            k, v = line.split("=", 1)
+            os.environ.setdefault(k.strip(), v.strip())
+
+VAPI_KEY      = os.getenv("VAPI_KEY")
+OUTGOING_ID   = os.getenv("VAPI_OUTGOING_AGENT_ID")
+PHONE_NUM_ID  = os.getenv("VAPI_PHONE_NUMBER_ID")
+ALAIN_NUMBER  = os.getenv("ALAIN_NUMBER")
 
 def call_alain(message: str, context: str = ""):
     payload = {

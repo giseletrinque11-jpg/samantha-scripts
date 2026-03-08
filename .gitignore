@@ -1,0 +1,34 @@
+# Secrets
+.env
+
+# Personal data — never on GitHub
+memory/
+data/
+snaps/
+MEMORY.md
+USER.md
+SOUL.md
+AGENTS.md
+TOOLS.md
+IDENTITY.md
+HEARTBEAT.md
+BOOTSTRAP.md
+Reports_to_shiva/
+
+# Credentials
+credentials/
+*.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
