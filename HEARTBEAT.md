@@ -75,7 +75,8 @@ Run watchlist script: `bash ~/workspace/scripts/watchlist.sh`
 - **Always alert:** >3% move on any watchlist ticker
 - **Always alert:** Major uranium/nuclear news not previously sent
 - **Stay quiet:** If nothing new or significant — just reply HEARTBEAT_OK
-- **Stay quiet:** Between 11 PM and 7 AM EST unless >5% move
+- **Stay quiet:** Between 10 PM and 6 AM EST unless >5% move
+- **NO camera alerts between 10 PM and 6 AM** — Alain is sleeping (updated Mar 7)
 
 ## State Files
 - `memory/watchlist-state.json` — last known prices + timestamps
