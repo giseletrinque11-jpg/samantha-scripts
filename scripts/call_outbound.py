@@ -1,9 +1,13 @@
 #!/usr/bin/env python3
 """
-Trigger an outbound Vapi call to Alain.
-Usage: python3 call_alain.py "Your message here" "Optional context"
+Trigger an outbound Vapi call to any number.
+Usage: python3 call_outbound.py <phone_number> <name> "<message>" 
+
+Examples:
+  python3 call_outbound.py +15142162436 Alain "Bonjour, c'est Samantha. Rappel pour ton rendez-vous."
+  python3 call_outbound.py +15146556597 Carl "Hi Carl, this is Samantha. I'm calling to clarify your request."
 """
-import requests, sys, json, os
+import requests, sys, os
 from pathlib import Path
 
 # Load .env from workspace root
@@ -17,18 +21,21 @@ if env_path.exists():
 VAPI_KEY      = os.getenv("VAPI_KEY")
 OUTGOING_ID   = os.getenv("VAPI_OUTGOING_AGENT_ID")
 PHONE_NUM_ID  = os.getenv("VAPI_PHONE_NUMBER_ID")
-ALAIN_NUMBER  = os.getenv("ALAIN_NUMBER")
 
-def call_alain(message: str, context: str = ""):
+def call_outbound(number: str, name: str, message: str):
+    if not number.startswith("+"):
+        print("Error: phone number must include country code, e.g. +15142162436")
+        return None
+
     payload = {
         "assistantId": OUTGOING_ID,
         "phoneNumberId": PHONE_NUM_ID,
         "customer": {
-            "number": ALAIN_NUMBER,
-            "name": "Alain"
+            "number": number,
+            "name": name
         },
         "assistantOverrides": {
-            "firstMessage": f"Bonjour Alain, c'est Samantha. {message}",
+            "firstMessage": message
         }
     }
 
@@ -44,13 +51,20 @@ def call_alain(message: str, context: str = ""):
 
     if resp.status_code == 201:
         call_id = resp.json().get("id", "unknown")
-        print(f"Call initiated. ID: {call_id}")
+        print(f"Call initiated to {name} ({number}). ID: {call_id}")
         return call_id
     else:
         print(f"Error {resp.status_code}: {resp.text}")
         return None
 
 if __name__ == "__main__":
-    msg = sys.argv[1] if len(sys.argv) > 1 else "J'ai une mise à jour pour toi."
-    ctx = sys.argv[2] if len(sys.argv) > 2 else ""
-    call_alain(msg, ctx)
+    if len(sys.argv) < 4:
+        print("Usage: python3 call_outbound.py <phone_number> <name> \"<message>\"")
+        print("Example: python3 call_outbound.py +15142162436 Alain \"Bonjour, c'est Samantha.\"")
+        sys.exit(1)
+
+    number  = sys.argv[1]
+    name    = sys.argv[2]
+    message = sys.argv[3]
+
+    call_outbound(number, name, message)

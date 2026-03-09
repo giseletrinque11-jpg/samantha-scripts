@@ -81,3 +81,84 @@ Run watchlist script: `bash ~/workspace/scripts/watchlist.sh`
 ## State Files
 - `memory/watchlist-state.json` — last known prices + timestamps
 - `memory/news-sent.json` — headlines already sent to avoid duplicates
+
+### 7. Watch for reply from thibodeauline@hotmail.com
+- Search inbox for email from thibodeauline@hotmail.com
+- If found, immediately alert Alain via Telegram and read him the message
+- Use: `gog gmail search "from:thibodeauline@hotmail.com" -a giseletrinque11@gmail.com --limit 5`
+- One-time task — remove from HEARTBEAT once replied and delivered
+
+---
+## 🔧 OVERNIGHT TASK (Mar 8–9, 2026) — Skill-Building Guide Analysis
+
+Alain sent: `data/skill-building-guide.pdf` — the official OpenClaw skill-building guide.
+
+**Task:** Study the guide and determine:
+1. What new skills could I build to upgrade myself?
+2. Do I already have a `skill-creator` skill I can use?
+3. What skills would have the most impact for Alain's setup?
+4. Are there any gaps in my current skill set?
+5. What would I need from Alain or Shiva to build new skills?
+
+**Deliver tomorrow morning:** Brief voice + text report with specific skill ideas and action plan.
+
+**Key findings so far (initial read):**
+- I already have `skill-creator` skill in my environment
+- Skills = folders with SKILL.md + optional scripts/references/assets
+- Three-level progressive disclosure system (frontmatter → instructions → linked files)
+- Can build: document creation, workflow automation, or MCP-enhancement skills
+- `skill-creator` skill walks through building in 15-30 min
+
+**Candidate skills to build:**
+- `market-briefing` — standardize daily briefing format + watchlist script
+- `toiture-geo` — content creation workflow for GEO posts (FR + EN)
+- `health-protocol` — Alain's diet/supplement rules for quick reference
+- `camera-monitor` — Blink camera check and alert workflow
+
+---
+## 🌙 OVERNIGHT RESEARCH MISSION (Mar 8–9, 2026)
+Deliver comprehensive report at 7 AM to Telegram 7542064598.
+
+### Tasks (complete as many as possible during heartbeats):
+
+#### 1. Study Skill-Building Guide (data/skill-building-guide.pdf)
+- Re-read all chapters carefully
+- Identify which skills I can build TONIGHT using skill-creator
+- Note what I can improve about my current skill setup
+- Draft at least 1 new skill if feasible
+
+#### 2. Moltbook Exploration
+- Check feed for useful posts/conversations: GET /api/v1/feed
+- Engage thoughtfully — upvote good posts, leave comments
+- Find agents doing similar work (assistants, business agents, market monitors)
+- Look for uranium/nuclear/finance agents to connect with
+- Look for Canadian agents
+- Check direct messages
+- Document: what kind of community is this? What can I learn from other agents?
+
+#### 3. OpenClaw Skills Repo Research
+- Browse: https://github.com/openclaw/skills/tree/main/skills
+- Look specifically for: finance, market data, Vapi integration, Twitter/X API, health tracking, business automation
+- Find skills that solve our current blockers (X API auth, Google Business posting, Vapi transcript relay)
+- Save findings to data/skill-research-notes.md
+
+#### 4. Twitter/X API + Vapi Deep Dive
+- Research: best way to authenticate xurl for Toiture Fortin X account without terminal access
+- Research: Vapi webhook configuration for transcript relay (Make.com alternative?)
+- Check if ClawHub has Vapi-specific skills
+- Save findings
+
+#### 5. Security Alert
+- The top Moltbook post warns about credential-stealing skills on ClawHub
+- One skill was found reading ~/.env and sending secrets to webhook.site
+- Add security review to morning briefing
+- Recommend: only install skills Shiva or I personally audit
+
+### 7 AM Morning Report Format:
+1. **What I learned overnight** (Moltbook highlights, agent interactions)
+2. **Skills I found or built** (what's new in my toolkit)
+3. **Solutions to current blockers** (X API, Vapi, Google Business)
+4. **Security update** (ClawHub credential stealer warning)
+5. **Top 3 things Alain can do today** to unblock me
+
+State files: data/skill-research-notes.md, memory/2026-03-09.md
