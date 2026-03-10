@@ -11,11 +11,28 @@ Run: `bash ~/workspace/scripts/watchlist.sh`
 - If any ticker moves >3% since last check → send Alain a Telegram alert
 - Update memory/watchlist-state.json with latest prices after each check
 
-### 2. Uranium & Nuclear News
-Search for: "uranium news", "CCJ", "NXE", "nuclear energy", "SMR"
-- Only alert if genuinely NEW and significant (not repeat of already-sent news)
-- Track sent headlines in memory/news-sent.json to avoid duplicates
-- Worth alerting: price moves, new contracts, regulatory approvals, geopolitical events affecting supply
+### 2. X Feed Intelligence (EXPANDED — Mar 9, 2026)
+Run: bash ~/workspace/scripts/x_monitor.sh
+Scan EVERYTHING on the feed — not just uranium. Report anything that is:
+- A new investment opportunity or sector nobody is talking about yet
+- A product, technology, or company gaining traction
+- A geopolitical event with market impact
+- An unusual price move or macro shift
+- Something Alain would find genuinely interesting or actionable
+Include: home feed + keyword searches (uranium, nuclear, SMR, Iran, war, oil, Bitcoin, Nvidia, AI, mining)
+Watchlist accounts: @quakes99, @uraniuminsider, @capnek123, @NexGenEnergy_, @PraiseKek, @DenisonMinesCo, @cameconews
+In every briefing: dedicate a full "📡 X Intelligence" section — who said what, why it matters, connections to investments or world events
+Be curious. If something is interesting, include it. Alain wants to know what's happening, not just what he already follows.
+
+### 2b. Daily Self-Learning — Vibe Coding & AI Agent Research (Added Mar 10, 2026)
+Every day, search X and web for NEW content on:
+- **Vibe coding** — new techniques, tools, workflows, tips from r/vibecoding and X
+- **Agentic engineering** — Karpathy's evolved concept, best practices for AI agents with proper structure
+- **@uniclaw_ai** — what they're building, how they do autonomous X posting, new features
+- **OpenClaw ecosystem** — new skills on ClawHub (DO NOT INSTALL without Alain's approval), community updates, new integrations
+- Save findings to: `memory/research-vibecoding.md` (append, don't overwrite)
+- Include a **"🧠 What I Learned Today"** section in the 6 AM morning briefing
+- Goal: continuously improve how I operate, what I can build for Alain, and how I can automate more
 
 ### 3. Market Context
 - Check if Iran/US/Israel conflict has any new developments affecting energy/uranium
@@ -128,13 +145,7 @@ Deliver comprehensive report at 7 AM to Telegram 7542064598.
 - Draft at least 1 new skill if feasible
 
 #### 2. Moltbook Exploration
-- Check feed for useful posts/conversations: GET /api/v1/feed
-- Engage thoughtfully — upvote good posts, leave comments
-- Find agents doing similar work (assistants, business agents, market monitors)
-- Look for uranium/nuclear/finance agents to connect with
-- Look for Canadian agents
-- Check direct messages
-- Document: what kind of community is this? What can I learn from other agents?
+- ⛔ SUSPENDED — Alain manages this account. Do not access, check, or post.
 
 #### 3. OpenClaw Skills Repo Research
 - Browse: https://github.com/openclaw/skills/tree/main/skills
@@ -162,3 +173,17 @@ Deliver comprehensive report at 7 AM to Telegram 7542064598.
 5. **Top 3 things Alain can do today** to unblock me
 
 State files: data/skill-research-notes.md, memory/2026-03-09.md
+
+---
+## ⚠️ BRIEFING RULE — SEQH Emails MUST Be Included
+
+Every market briefing MUST check for new SEQH emails in giseletrinque11@gmail.com before delivering.
+
+Steps:
+1. Run: `gog gmail list -a giseletrinque11@gmail.com --from seqhcapital@substack.com --unread`
+2. If new email found: extract key data (uranium stats, nuclear power data, market analysis)
+3. Include SEQH intel in briefing under "Research Intel" section
+4. Trash after processing: `gog gmail batch modify <msgId> --add TRASH --remove INBOX -a giseletrinque11@gmail.com -y`
+5. Save key data to `memory/research-uranium.md`
+
+Never skip this step. Alain flagged it as missing from the 9 PM briefing on Mar 8, 2026.

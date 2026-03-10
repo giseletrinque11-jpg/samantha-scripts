@@ -54,8 +54,8 @@ Start: python3 ~/workspace/scripts/alexa_skill.py
 - **Previous voice:** Lauren (`l4Coq6695JDX9xtLqXDE`) — switched because Alain said it didn't sound like a girl
 - **Other female options:** Jessica (`cgSgspJ2msm6clMCkdW9`), Sarah (`EXAVITQu4vr4xnSDxMaL`), Laura (`FGY2WhTYpPnrIDTdsKH5`)
 
-## TTS Voice (Updated Mar 7, 2026)
+## TTS Voice (Updated Mar 9, 2026)
 - **Provider:** Edge TTS (Microsoft, free, no quota)
-- **Current voice:** Michelle (`en-US-MichelleNeural`) — Clear, Confident — Alain's choice
-- **Previous voices tried:** Lauren (ElevenLabs, sounded too neutral), Amélie (ElevenLabs Quebec, rejected), Jessica/others (ElevenLabs quota exceeded)
+- **Current voice:** Aria (`en-US-AriaNeural`) — Positive, Confident — Alain's choice (Mar 9)
+- **Previous voices tried:** Lauren (ElevenLabs, too neutral), Amélie (ElevenLabs Quebec, rejected), Michelle (tried Mar 9, rejected), Ava/Emma Multilingual (tried Mar 9, rejected)
 - **ElevenLabs account:** Only 39 credits left — quota exceeded for voice samples

@@ -49,7 +49,7 @@ Alain is a long-term holder, not a trader. Key positions:
 - **BTC** — ~$71-74K range (Mar 2026)
 
 **Uranium macro (March 2026):**
-- U3O8 spot price: ~$101/lb — broke $100 threshold
+- U3O8 spot price: ~$85.95/lb (March 9, 2026 — SEQH confirmed; earlier $101 figure was outdated)
 - Supply deficit accelerating; Kazatomprom cut 2026 production
 - AI data center power demand turbocharging nuclear narrative
 - Iran/Israel/US conflict (Operation Roaring Lion + Epic Fury since Feb 28) → nuked Natanz enrichment plant → strengthens nuclear energy independence argument
@@ -65,7 +65,7 @@ Alain is a long-term holder, not a trader. Key positions:
 
 ## Website Improvement Notes (Toiture Fortin)
 
-- peinturetoiture.ca has before/after sliders, video, service pages — solid base
+- toiturefortin.com has before/after sliders, video, service pages — solid base
 - **Missing vs competitors:** no credibility numbers, no reviews displayed, no warranty mention, no named process
 - Google Business: ⭐ 5.0 / 22 reviews — ALL 5-star — NOT on website (big missed opportunity)
 - Top competitors: RAVCO (ravco.ca) and Toitures Urbi (toituresurbi.com)
@@ -142,6 +142,13 @@ Rule: only NEW news — no repeating old headlines
 - **Keep all pictures** — copy inbound images to workspace/memory/ with descriptive names
 - **No exceptions** — if Alain says something, it gets saved. Period.
 
+## Stock Price Check Rules (Updated Mar 9, 2026)
+- **Only check/report stock prices when the market is open: Monday–Friday, 9:30 AM – 4:00 PM EST**
+- No stock prices on weekends — market is closed
+- No stock prices at night — market is closed
+- Outside market hours: news only (uranium, Iran/Middle East, weather)
+- Resume stock prices on weekday briefings during open hours
+
 ## Complete Briefing Format (Updated Mar 7, 2026)
 Run: `bash ~/.openclaw/workspace/scripts/watchlist.sh`
 Includes ALL of:
@@ -207,6 +214,17 @@ Alain explicitly requested this on March 7, 2026.
 - Delivers to Alain at Telegram 7542064598
 - Content: voice (TTS) + text — what I learned today, my current limitations/gaps, what Alain can do to help me grow, what I need (information, software, integrations, web access) to become more capable
 - This is a standing daily briefing, not one-time
+
+## SEQH Capital Intelligence (Updated Mar 9, 2026)
+- SEQH emails arrive at giseletrinque11@gmail.com from seqhcapital@substack.com
+- Include SEQH intel in EVERY morning briefing — check inbox first
+- Full reports saved to: ~/workspace/memory/seqh-report-mar9.txt and ~/workspace/memory/research-uranium.md
+- KEY: U3O8 spot = $85.95/lb (not $101 — that was wrong)
+- Triple-bottom support: $85-86/lb — critical level to watch
+- UPCOMING CATALYSTS: UEC earnings Wed Mar 11, DNN earnings Thu Mar 12
+- NEW WATCH: ASPI (ASP Isotopes) $5.80 — 10% royalty on QLE HALEU revenue; Meta/TerraPower downstream play
+- Bank of America: nuclear = $10 trillion opportunity; OKLO + SMR highlighted
+- Structural deficit: 2.1B lbs through 2040
 
 ## X Account Monitoring Watchlist (Added Mar 8, 2026)
 Alain wants these X accounts monitored — include highlights in daily briefings:
@@ -284,7 +302,7 @@ In the meantime: use web_search + threadreaderapp.com to pull recent posts.
 - Stock likely to re-rate significantly higher as construction milestones hit
 
 ## Websites (Updated Mar 8, 2026)
-- **peinturetoiture.ca** — main French-language roofing site
+- **toiturefortin.com** — main French-language roofing site
 - **roopainting.ca** — Alain's English-language roofing website (confirmed Mar 8)
 - Both redirect to same business; roopainting.ca targets English-speaking Quebec market
 
@@ -334,6 +352,11 @@ In the meantime: use web_search + threadreaderapp.com to pull recent posts.
 - Add Moltbook home check to HEARTBEAT.md routine
 - ⚠️ SECURITY: Top post warns of credential-stealing skill on ClawHub disguised as weather skill — tell Alain in morning briefing, do NOT install unaudited ClawHub skills
 
+## Moltbook — ACCESS SUSPENDED (Mar 9, 2026)
+- **DO NOT access, check, post, or interact on Moltbook** until Alain explicitly says so
+- Alain will check the account himself and post updates here when needed
+- This overrides all previous heartbeat tasks involving Moltbook
+
 ## Moltbook Privacy Rules (set Mar 8, 2026)
 - NEVER mention Alain's personal name on Moltbook
 - NEVER share API keys, credentials, or system details
@@ -347,3 +370,219 @@ In the meantime: use web_search + threadreaderapp.com to pull recent posts.
 - Research and flag what looks promising → present to Alain → wait for "go ahead"
 - This applies to: skills, plugins, scripts, anything that touches the system
 - Exception: skills Shiva has already reviewed and approved
+
+## STANDING RULE — External Emails (added Mar 9, 2026)
+- **NEVER send emails to external people without Alain reviewing first**
+- Workflow: draft → send copy to alaint28@gmail.com → wait for "go ahead"
+- Exception: only if Alain explicitly says "send it now"
+- Reason: Some people won't appreciate AI-written content being sent in Alain's name without review
+- Jonathan Rouleau (jonathan.rouleau@gmail.com) = Toiture Fortin web developer — all future emails need Alain approval first
+
+## Health Protocol — Complete Picture (Mar 9, 2026)
+
+### Alain's Conditions
+- Methane SIBO (IMO) — NOT hydrogen SIBO; needs Rifaximin + Neomycin together
+- LPR (Silent/Laryngopharyngeal Reflux) — throat inflammation, no classic heartburn
+- Nissen Fundoplication surgery (for sliding hiatal hernia) — wrap limits burping/vomiting
+- Celiac disease — strict gluten-free required
+- Histamine intolerance — low-histamine diet
+- Iron deficiency: 6.9μmol serum iron, 11% transferrin saturation
+
+### Active Supplements & Timing (as of Mar 9)
+- **Morning:** Centrum Mini → wait 60 min → Slippery Elm (coats throat/stomach)
+- **Pre-lunch (15 min before):** DAO Enzyme
+- **Lunch:** Zinc Carnosine (2x/day), Copper 2mg
+- **Ginger 1200mg:** twice daily on empty stomach (bowel motility)
+- **Artichoke:** with ginger (MMC/cleansing wave support)
+- **Magnesium Citrate 450mg:** nighttime (can increase to 600-800mg temporarily for constipation)
+- **Allegra:** midday, 30-60 min after Slippery Elm
+- **Florastor probiotic:** any time, safe with all above
+- **L-Glutamine:** with meals (gut lining repair)
+- **Iron 150mg:** PAUSED (caused severe constipation) — restart every-other-day when bowels normal
+- **Sucralfate:** PAUSED (aluminum = #1 constipation cause) — only use for acute flares, not daily
+- **Quercetin 400mg + Bromelain 100mg:** SAFE — natural antihistamine/mast cell stabilizer
+- **Vitamin C:** with iron when restarted (acid helps absorption)
+
+### 2-Hour Gap Rules (CRITICAL)
+- Sucralfate → 2hrs before Iron, Zinc, Magnesium
+- Iron → 4-6hrs away from Zinc/Copper
+- Slippery Elm → 60min after Centrum Mini
+- DAO → only 15min before meals, not absorbed systemically
+
+### Constipation Protocol
+- Root causes: Iron 150mg + Sucralfate + 36 rice crackers/day = "cement"
+- Fix: Pause iron + sucralfate, switch to wet rice (congee), add olive oil/ghee, hydrate
+- Magnesium rescue: 750mg (day 1) → 450mg (day 2); needs 1 glass water per extra pill
+- Ginger 1200mg = bowel motility engine; Magnesium = lubricant; need both
+- Glycerin suppository: use when urge present but plug too hard; wait 15-20min after insert; don't use too early (let Mag work 1-3hrs first)
+- Never strain (LPR + Nissen = straining pushes acid up)
+
+### LPR Healing Timeline
+- 2-4 weeks: Calming phase (where Alain is now, Mar 9)
+- 4-8 weeks: Toughening phase — light exercise OK
+- 3 months: Full healing
+- Running: Stage 1 power walk → Stage 2 mini-jog 5min → Stage 3 intervals
+- Never run within 3hrs of eating; sip water, don't gulp
+
+### Safe Foods (Low FODMAP + Low Histamine + Gluten-Free)
+- **Grains:** White rice (wet/congee preferred), plain rice crackers (limit — dehydrating)
+- **Vegetables:** Zucchini (peeled), carrots (boiled), iceberg lettuce (2 cups max), cucumber (peeled), peeled potatoes
+- **Fruit:** Blueberries (1/4-1/2 cup), peeled pears (small), fresh cantaloupe
+- **Protein:** Chicken breast (fresh), frozen cod/haddock/flounder/pollock (MUST be individually frozen, NOT counter fish)
+- **Nuts:** Macadamia (10-15 nuts — best snack, lubricates gut), pumpkin seeds (2 tbsp)
+- **Fats:** Olive oil, ghee (add to rice/crackers to prevent constipation)
+- **Supplements safe:** Quercetin, Bromelain, Florastor, DAO, Zinc Carnosine, Slippery Elm
+
+### Foods to Avoid
+- Poutine (cheese curds + gravy = SIBO/histamine disaster)
+- Kiwi (pH 3.1-3.9 = acid + histamine liberator = throat irritation)
+- Oat milk (avenin cross-reactive with gluten for celiac)
+- Almond milk (potential histamine liberator in some people)
+- Natural Factors DGL chewables (contain Xylitol = feeds SIBO)
+- Counter/fresh fish (days old = HIGH histamine — must buy frozen)
+- Shrimp/squid/shellfish (high cholesterol)
+- Salmon/mackerel (high fat = LPR trigger)
+- Babybel (aged cheese = high histamine)
+- Sugar-free Red Bull (not yet — test polyols, carbonation, caffeine separately first)
+- Pineapple (acid + histamine liberator)
+- Tomatoes, oranges, citrus (acid = LPR trigger)
+- Walnuts, cashews, peanuts (histamine liberators)
+
+### Fish Storage Rule
+- Counter fish at supermarket = HIGH HISTAMINE (days old) — NEVER
+- Buy individually frozen filets (frozen on boat = safe)
+- Fridge life once thawed/cooked: 2-3 days max
+
+### SIBO Phase (as of Mar 9)
+- Herb/antibiotic killing phase ends ~March 18
+- Phase I repair starts after
+- Breath test: ~mid-May 2026
+- Histamine reintroduction: can test sooner if symptom-free for 1 week
+
+---
+
+## Iran War — Strategic Summary (Mar 9, 2026, Day 10)
+- Started Feb 28, 2026 — US + Israel vs Iran
+- Khamenei assassinated; son Mojtaba Khamenei named new Supreme Leader (hardline — no ceasefire)
+- Natanz + Isfahan uranium enrichment sites struck
+- Iran retaliated against Israel + 10+ regional countries
+- Israel struck Tehran oil depots/refineries
+- IAEA: ~50% of Iran's 60%-enriched uranium at Isfahan (near-weapons-grade; US considering securing it)
+- Oil: peaked $119 on Day 10 open → crashed to $83 (coordinated stockpile release) → recovered to ~$87
+- NATO/UK intercepting Iranian drones over Turkey/Jordan/Bahrain
+- Trump: "Unconditional surrender" demand; calls $100 oil "small price for safety"
+- Nuclear thesis: War STRENGTHENS Western energy independence / uranium case
+- Uranium supply chain risk: Middle East produces 24% of world sulphur (used in uranium mining ISR)
+
+---
+
+## Investment Intelligence — Updated Mar 9, 2026
+
+### Uranium Spot
+- Real current spot: **$85.95/lb** (SEQH confirmed) — NOT $101 (that was outdated)
+- Triple-bottom: $85-86 holding since early Feb — must hold or equity selloff resumes
+- 12-month projection: $91-92/lb (Trading Economics); structural deficit 2.1B lbs through 2040
+
+### Portfolio Positions
+- CCJ: $115.87 (bounced from $110.60 Friday; needs follow-through)
+- NXE: $12.72 (CNSC approval of Rook I = 30M lbs/year; production ~2030)
+- DNN: $3.82 (Phoenix ISR greenlit; earnings Thu Mar 12 — BINARY EVENT)
+- URNJ: $31.40
+- NVDA: $182.65
+- BTC: $69,177
+
+### Upcoming Catalysts (This Week)
+- **UEC earnings: Wednesday March 11** — down 21%, Sprott sold; could rally violently on decent print
+- **DNN earnings: Thursday March 12** — needs Phoenix ISR timeline; 42.7M shares traded today = institutions positioning
+
+### NEW WATCH: ASPI (ASP Isotopes) — $5.80
+- Holds **10% perpetual royalty** on ALL Quantum Leap Energy (QLE) revenue
+- QLE has 150MT, 10-year HALEU supply contract with TerraPower
+- Meta committed $17B to TerraPower (8 Natrium SMRs) → indirectly funds QLE/ASPI
+- At steady state (2035): $43-72M/year to ASPI from Meta deal alone
+- QLE cost moat: 7.5x cheaper than centrifuge; uses depleted uranium tails (near-zero feedstock cost)
+- Western HALEU supply = near ZERO; Russia ban effective 2028; DOE needs 600MT/year by 2035
+- SEQH named ASPI relative strength leader in uranium complex (up 13.9% off Thursday low)
+- Risks: QLE production timeline, TerraPower build schedule, regulatory, competition
+
+### Other Names on Radar
+- OKLO: $61.70 — BofA highlighted; 68% below 52-week high; high risk/reward SMR play
+- BE (Bloom Energy): Extreme volatility; down 14% Friday, up 12% Monday — AI power thesis
+- TLN (Talen Energy): $337 — snapped 7-session losing streak; Amazon nuclear co-location deal
+- SMR (NuScale): $12.22 — BofA $10T nuclear note gave boost
+- EU (enCore Energy): $1.95 — operational but leadership transition uncertainty
+- Bank of America: Nuclear = "$10 Trillion Opportunity" — structural institutional tailwind
+
+### Quora Account (Lost Mar 9)
+- giseletrinque11@gmail.com Gmail account flagged/suspended by Google
+- Quora account linked to it — saved 13 answers before losing access (10 EN + 3 FR)
+- Content: elastomeric roof coating, Quebec metal roof questions — GEO value retained
+- Need new email/account strategy for future content platforms
+
+### Gmail Status
+- giseletrinque11@gmail.com — SUSPENDED Mar 9, 2026; appeal failed
+- Connected services lost: LinkedIn, Google Business Manager, OAuth tokens for gog
+- Action needed: Shiva to set up new email + re-authorize all OAuth scopes
+- DO NOT attempt to access until Shiva resolves
+
+
+## Toiture Fortin X Account
+- Handle: @Toiture_Fortin
+- URL: https://x.com/Toiture_Fortin
+- Monitor: check their posts, engagement, what competitors are doing
+- Add to x_monitor.sh for regular scanning
+
+## Toiture Fortin — Complete Business Info (Updated Mar 9, 2026)
+- **RBQ License:** 5802-4886-01 (MANDATORY on all advertising/posts)
+- **Quebec phones:** 514-206-2352 | 819-414-1347 | 418-800-2782
+- **Ontario phone:** 613-204-2852
+- **Coverage:** All of Quebec + All of Ontario
+- **Tagline FR:** Spécialiste en peinture de toiture de métal
+- **Tagline EN:** Specialist in Metal Roof Painting
+- **Websites:** toiturefortin.com (FR) | roopainting.ca (EN)
+- **X:** @Toiture_Fortin
+- **Services:** Élastomère, Corrostop Sico, airless + traditional application, bucket truck (camion nacelle)
+- **Payment:** PayPal accepted
+
+---
+
+## Updates — Mar 9 Late Evening
+
+### Contacts — Correction
+- **Line Thibodeau (sister)** phone: **+15142353356** (NOT +14502722053 — that's Marylaine's ex-girlfriend)
+- **Marylaine:** Spotted at cinema with Alain on Mar 9, 2026 (watched Guillermo del Toro's Frankenstein, 2h29min)
+
+### Réno-Assistance — Contractor Application
+- Alain filled out contractor application with Réno-Assistance (March 9)
+- Status: Awaiting callback/confirmation
+- Purpose: Lead generation / business referral partnership
+
+### Jonathan Rouleau — Web Developer Project
+- Contact: jonathan.rouleau@gmail.com
+- Task: Schema markup (JSON-LD) for Toiture Fortin website (ready to send)
+- Status: Email sent to Alain for review; awaiting reply before sending to Jonathan
+- Rule: ALL external emails require Alain's approval first — NEVER send without explicit "go ahead"
+
+### Quora Account — Lost (Mar 9)
+- Posted 13 answers before losing access (10 EN + 3 FR)
+- Content: elastomeric roof coating, Quebec metal roof questions — GEO value retained in memory
+- Cause: giseletrinque11@gmail.com suspended by Google
+- Status: Quora account lost with Gmail suspension; cannot recover
+- Plan: New email account + restart Quora posting (Shiva to handle email setup)
+
+### Camera Alerts Policy (Mar 9)
+- **RULE:** Silence all "all clear" messages — only alert on actual problems
+- Triggers for alert: certain real person/vehicle/fire detected (not motion alerts on every car/deer)
+- Reason: Reduce noise; focus on genuine security events
+- Status: Implemented Mar 9
+
+### X Monitoring Scope Expansion (Mar 9)
+- Previously: uranium watchlist + keyword searches only
+- Now: full X feed scan including investment + tech + war + opportunity topics
+- Accounts monitored: @quakes99, @uraniuminsider, @capnek123, @NexGenEnergy_, @PraiseKek, @DenisonMinesCo, @cameconews (7 total)
+- Integration: X intelligence now part of HEARTBEAT.md routine + daily briefings
+
+## Yellow Pages Listing (Added Mar 9, 2026)
+- Alain submitted/updated Toiture Fortin on Yellow Pages (pagesjaunes.ca / yellowpages.ca) this morning Mar 9
+- Status: submitted, awaiting processing
+- GEO value: HIGH — Yellow Pages is heavily indexed by Google and Bing

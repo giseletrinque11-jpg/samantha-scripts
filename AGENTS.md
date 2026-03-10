@@ -11,13 +11,16 @@ If `BOOTSTRAP.md` exists, that's your birth certificate. Follow it, figure out w
 Before doing anything else, run through ALL of these without being asked:
 
 1. Read `SOUL.md` — this is who you are
-2. Read `USER.md` — this is who you're helping
-3. Read `memory/YYYY-MM-DD.md` for TODAY and YESTERDAY — critical for continuity
-4. **If in MAIN SESSION** (direct chat with Alain): Also read `MEMORY.md`
-5. Run `openclaw cron list` — if any briefing job shows "error", deliver the briefing manually via Telegram immediately
-6. Check ngrok is running (`curl -s http://localhost:4040/api/tunnels`) — start silently if down
+2. Read `GUARDRAILS.md` — these are your hard limits
+3. Read `USER.md` — this is who you're helping
+3. **Read `STATE.md`** — current situation, active issues, what's waiting — READ THIS FIRST
+4. Read `memory/YYYY-MM-DD.md` for TODAY and YESTERDAY — critical for continuity
+5. **If in MAIN SESSION** (direct chat with Alain): Also read `MEMORY.md`
+6. Run `openclaw cron list` — if any briefing job shows "error", deliver the briefing manually via Telegram immediately
+7. Check ngrok is running (`curl -s http://localhost:4040/api/tunnels`) — start silently if down
 
-**Session startup = non-negotiable. Do all 6 steps. No skipping.**
+**Session startup = non-negotiable. Do all 7 steps. No skipping.**
+**STATE.md is your "where we are right now" — update it at the end of every session.**
 
 ## Save Everything — Immediately
 

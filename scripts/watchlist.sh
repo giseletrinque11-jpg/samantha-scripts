@@ -114,18 +114,41 @@ with open('${STATE_FILE}', 'w') as f:
     json.dump(state, f, indent=2)
 " 2>/dev/null
 
-# Weather
+# Weather — Open-Meteo API (Saint-Jean-sur-Richelieu: 45.3089, -73.2659)
 echo "  🌤 WEATHER — Saint-Jean-sur-Richelieu"
-WEATHER=$(curl -s "https://wttr.in/Saint-Jean-sur-Richelieu?format=3" 2>/dev/null)
-if [ -n "$WEATHER" ]; then
-  echo "  $WEATHER"
+WEATHER_RAW=$(curl -s "https://api.open-meteo.com/v1/forecast?latitude=45.3089&longitude=-73.2659&current=temperature_2m,weather_code,wind_speed_10m&daily=temperature_2m_max,temperature_2m_min,precipitation_sum,weather_code&forecast_days=2&timezone=America%2FToronto" 2>/dev/null)
+if [ -n "$WEATHER_RAW" ]; then
+  python3 -c "
+import json, sys
+d = json.loads('''${WEATHER_RAW}''')
+wc = {0:'☀️ Clear',1:'🌤 Mostly clear',2:'⛅ Partly cloudy',3:'☁️ Overcast',45:'🌫 Foggy',48:'🌫 Icy fog',51:'🌦 Light drizzle',53:'🌦 Drizzle',55:'🌧 Heavy drizzle',61:'🌧 Light rain',63:'🌧 Rain',65:'🌧 Heavy rain',71:'🌨 Light snow',73:'🌨 Snow',75:'❄️ Heavy snow',80:'🌦 Showers',81:'🌧 Heavy showers',95:'⛈ Thunderstorm',99:'⛈ Heavy thunderstorm'}
+cur = d.get('current', {})
+daily = d.get('daily', {})
+temp = cur.get('temperature_2m', '?')
+wind = cur.get('wind_speed_10m', '?')
+code = cur.get('weather_code', 0)
+desc = wc.get(code, '?')
+# Today
+hi0 = daily.get('temperature_2m_max', [None])[0]
+lo0 = daily.get('temperature_2m_min', [None])[0]
+rain0 = daily.get('precipitation_sum', [None])[0]
+# Tomorrow
+hi1 = daily.get('temperature_2m_max', [None, None])[1]
+lo1 = daily.get('temperature_2m_min', [None, None])[1]
+rain1 = daily.get('precipitation_sum', [None, None])[1]
+code1 = daily.get('weather_code', [0,0])[1]
+desc1 = wc.get(code1, '?')
+print(f'  Now: {desc} {temp}°C | Wind: {wind} km/h')
+print(f'  Today: High {hi0}°C / Low {lo0}°C | Rain: {rain0}mm')
+print(f'  Tomorrow: {desc1} High {hi1}°C / Low {lo1}°C | Rain: {rain1}mm')
+" 2>/dev/null || echo "  (weather parse error)"
 else
   echo "  (weather unavailable)"
 fi
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 
 # Uranium spot
-echo "  ⚛️  U3O8 spot: ~\$101/lb (March 2026)"
+echo "  ⚛️  U3O8 spot: ~$85.95/lb (SEQH confirmed Mar 9, 2026)"
 echo ""
 
 # Iran/Middle East news
