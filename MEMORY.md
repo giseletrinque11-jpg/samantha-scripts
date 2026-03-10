@@ -177,7 +177,7 @@ Alain explicitly requested this on March 7, 2026.
 - Root folder ID: `1UbFZTivCBn_NhzjZbFp2NBNzXMweAvdh`
 - Subfolder "toit" ID: `1qQIJqKv01QTk-9fP4W48-nPoWmdL3olC`
 - New OAuth scope: `drive.readonly` added Mar 7
-- New refresh token: `[REDACTED]`
+- New refresh token: `[REDACTED - stored in .env]`
 - Photos: 72 downloaded to `workspace/data/roof_photos/drive_import/` (DJI drone aerials, job site photos 2014-2026)
 - Videos: 3 promo videos downloaded to `workspace/data/roof_videos/`
 - Access pattern: refresh token → access token → Drive API v3
