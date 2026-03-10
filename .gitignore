@@ -32,3 +32,9 @@ venv/
 # OS
 .DS_Store
 Thumbs.db
+data/roof_videos/
+data/roof_photos/
+sample-*.mp3
+tmp_cam/
+cam_review/
+camera_snaps/
