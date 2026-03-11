@@ -2,12 +2,9 @@
 
 ## Startup Checklist
 
-- **ngrok must be running and exposing `/v1/chat/completions`** on every session start.
-  - Config: `~/.config/ngrok/ngrok.yml` — tunnel name `gateway`, maps to `localhost:18789`
-  - Start with: `ngrok start --config ~/.config/ngrok/ngrok.yml gateway &`
-  - Verify: `curl -s http://localhost:4040/api/tunnels` — should show a public HTTPS URL
-  - The OpenClaw gateway at port 18789 serves `/v1/chat/completions` (requires auth)
-  - **If ngrok is already running: say nothing. Only speak up if it's down or needs to be started.**
+- **ngrok is REMOVED (Mar 10, 2026)** — confirmed not needed for current setup
+  - Vapi → Make.com → Telegram is the pipeline; no inbound webhooks to this machine needed
+  - Do NOT reinstall or reference ngrok
 
 ## Calling Alain
 
@@ -27,9 +24,7 @@ When Alain asks to be called (e.g. "call me", "call me back"), **use the Vapi ou
 ## Infrastructure
 
 - **OpenClaw gateway** listens on `0.0.0.0:18789`
-- **ngrok** tunnels `gateway` (18789) and `voice` (3334) per `~/.config/ngrok/ngrok.yml`
-- ngrok authtoken is configured in the ngrok config file
-- ngrok tends to be down on fresh sessions — always check and start silently if needed
+- **ngrok REMOVED Mar 10, 2026** — not needed, Vapi/Make/Telegram handles all messaging
 
 ## Watchlist Script
 
@@ -167,7 +162,7 @@ Every session, before anything else:
 3. Read memory/YYYY-MM-DD.md for TODAY + YESTERDAY
 4. Read MEMORY.md (main sessions only)
 5. Run `openclaw cron list` — if any briefing job errored → send briefing manually
-6. Check ngrok is running
+6. ~~Check ngrok is running~~ — ngrok removed Mar 10, skip this step
 
 Save everything immediately — do not wait until end of session.
 Alain explicitly requested this on March 7, 2026.
@@ -514,7 +509,7 @@ In the meantime: use web_search + threadreaderapp.com to pull recent posts.
 - Bank of America: Nuclear = "$10 Trillion Opportunity" — structural institutional tailwind
 
 ### Quora Account (Lost Mar 9)
-- giseletrinque11@gmail.com Gmail account flagged/suspended by Google
+- giseletrinque11@gmail.com Gmail account — **RECOVERED Mar 10, 2026** (was suspended, appeal succeeded)
 - Quora account linked to it — saved 13 answers before losing access (10 EN + 3 FR)
 - Content: elastomeric roof coating, Quebec metal roof questions — GEO value retained
 - Need new email/account strategy for future content platforms

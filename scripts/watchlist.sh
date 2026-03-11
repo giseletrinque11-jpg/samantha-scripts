@@ -148,7 +148,7 @@ fi
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 
 # Uranium spot
-echo "  ⚛️  U3O8 spot: ~$85.95/lb (SEQH confirmed Mar 9, 2026)"
+echo '  ⚛️  U3O8 spot: ~$85.95/lb (SEQH confirmed Mar 9, 2026)'
 echo ""
 
 # Iran/Middle East news
